@@ -1,0 +1,71 @@
+html , body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+.questionnaire_container_obj{
+    display: inline-block;
+    position: absolute;
+    left: calc(50% - 265px);
+    top: 20%;
+}
+
+.questionnaire_container_obj_th{
+    vertical-align: middle;
+}
+.question_text{
+    font-family:'Pangolin', cursive;
+}
+.section{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.sbmtBtn{
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-image: url('image/submitBtn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: .2s;
+}
+.sbmtBtn:active{
+    transform: scale(0.95);
+}
+
+.radio_label{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin:0px 3px 0px 3px;
+    box-sizing: border-box;
+
+    background-image: url(image/smiles.png);
+    background-size: 158px;
+}
+
+.label_1{
+    background-position: -2px 0px;
+}
+.label_2{
+    background-position: -54px 0px;
+}
+.label_3{
+    background-position: -105px 0px;
+}
+
+/*Пометка radio*/
+
+.goodMark{
+    filter: drop-shadow(0 0 6px green);
+}
+.normalMark{
+    filter: drop-shadow(0 0 6px orange);
+}
+.badMark{
+    filter: drop-shadow(0 0 6px tomato);
+}
